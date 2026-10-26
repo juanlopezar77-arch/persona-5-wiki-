@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Persona 5 Royal · Wiki de los Phantom Thieves</title>
+  <meta name="description" content="Wiki interactiva fan de Persona 5 Royal: personajes, Personas, Palacios y soundtrack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;600&family=Barlow+Condensed:wght@600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip" href="#sinopsis">Saltar al contenido</a>
+
+<!-- ICONOS (se usan con <svg><use href="#i-nombre"/></svg>) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V5m-6 6 6-6 6 6"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+</svg>
+
+<div class="wipe" id="wipe" aria-hidden="true"></div>
+
+<!-- ========== NAVEGACIÓN ========== -->
+<header class="topbar">
+  <a class="logo" href="#inicio" data-nav>P5<b>R</b></a>
+  <button class="icon-btn menu-btn" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú"><svg class="ico"><use href="#i-menu"/></svg></button>
+  <nav id="navLinks" aria-label="Principal">
+    <!-- Para añadir una sección: copia una línea y cambia href (debe coincidir con el id de la sección) -->
+    <a href="#sinopsis" data-nav><i>01</i>Sinopsis</a>
+    <a href="#personajes" data-nav><i>02</i>Thieves</a>
+    <a href="#personas" data-nav><i>03</i>Personas</a>
+    <a href="#palacios" data-nav><i>04</i>Palacios</a>
+    <a href="#soundtrack" data-nav><i>05</i>Música</a>
+  </nav>
+  <button class="spoiler-switch" id="spoilerToggle" aria-pressed="false"><span>Spoilers: NO</span></button>
+</header>
+
+<main>
+<!-- ========== PORTADA ========== -->
+<section id="inicio" class="hero">
+  <div class="hero__bg" aria-hidden="true"><span class="hero__slab"></span></div>
+  <div class="hero__inner">
+    <p class="tag">Phantom Thieves of Hearts · Tokio 2016</p>
+    <h1 class="hero__title"><span class="hero__persona">PERSONA</span><span class="hero__row"><span class="hero__five">5</span><span class="hero__royal">ROYAL</span></span></h1>
+    <p class="hero__lead">La justicia no pide permiso. Roba el corazón de quien abusa del poder.</p>
+    <div class="hero__cta">
+      <a class="btn btn--red" href="#sinopsis" data-nav>Explorar la wiki</a>
+      <a class="btn btn--ghost" href="#personajes" data-nav>Conocer a los Phantom Thieves</a>
+    </div>
+  </div>
+ <div class="callcard" aria-hidden="true">
+    <img src="https://i.pinimg.com/736x/8d/08/7a/8d087a6e6365f4d400d0411fa57b0f19.jpg" alt="Take Your Heart" class="custom-card-img">
+</div>
+  <a class="scroll-cue" href="#sinopsis" data-nav aria-label="Desplazarse hacia abajo"><span>Desliza</span><svg class="ico"><use href="#i-down"/></svg></a>
+  <div class="ribbon" aria-hidden="true"><div>PHANTOM THIEVES ★ TAKE YOUR HEART ★ PHANTOM THIEVES ★ TAKE YOUR HEART ★ PHANTOM THIEVES ★ TAKE YOUR HEART ★ PHANTOM THIEVES ★ TAKE YOUR HEART ★</div></div>
+</section>
+
+<!-- ========== 01 SINOPSIS ========== -->
+<section id="sinopsis" class="sec">
+  <div class="wrap">
+    <header class="sec-head reveal"><span class="sec-head__n">01</span><h2>Sinopsis</h2></header>
+    <div class="syn">
+      <ol class="syn__list">
+        <li class="reveal"><h3>Los Phantom Thieves of Hearts</h3><p>Ren Amamiya llega a Tokio en libertad condicional tras una acusación falsa. Vive en el café Leblanc, estudia en Shujin Academy y, de noche, lidera a un grupo de estudiantes que castiga a los corruptos desde las sombras.</p></li>
+        <li class="reveal"><h3>El Metaverso</h3><p>Una dimensión alimentada por la percepción colectiva. Allí, los deseos retorcidos de ciertas personas toman forma de lugares guardados por Shadows.</p></li>
+        <li class="reveal"><h3>Palacios y Mementos</h3><p>Un Palacio es la distorsión de una sola persona; Mementos es el subconsciente compartido de la gente. Cada Palacio esconde un Tesoro: el núcleo de ese deseo.</p></li>
+        <li class="reveal"><h3>Cambiar corazones</h3><p>Los Thieves envían una tarjeta de aviso y roban el Tesoro. Sin su distorsión, el objetivo confiesa sus actos y se arrepiente en el mundo real.</p></li>
+        <li class="reveal"><h3>Un año para cambiarlo todo</h3><p>El juego se vive por calendario: clases, trabajos, vínculos (Confidants) de día; infiltraciones cuando hay plazo. Cada decisión cuenta.</p></li>
+      </ol>
+      <aside class="syn__royal reveal">
+        <p class="tag">Qué añade Royal</p>
+        <p>Edición ampliada lanzada en Japón el 31 de octubre de 2019 y en Occidente el 31 de marzo de 2020. Suma nuevos personajes (Kasumi Yoshizawa y Takuto Maruki), la zona de Kichijoji, el gancho de escalada, las Will Seeds, un tercer semestre y más Personas.</p>
+        <div class="spoiler" role="button" tabindex="0" aria-label="Spoiler: pulsa para mostrar"><span class="spoiler__tag">SPOILER</span><div class="spoiler__body">Al final del año, la historia original se completa con un enfrentamiento contra Yaldabaoth, la falsa deidad que alimentaba la apatía colectiva. En Royal, un tercer semestre pone a los Thieves ante una realidad «perfecta» creada por Maruki y les obliga a elegir entre confort e identidad.</div></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 02 PERSONAJES ========== -->
+<section id="personajes" class="sec sec--dark">
+  <div class="wrap">
+    <header class="sec-head reveal"><span class="sec-head__n">02</span><h2>Phantom Thieves</h2></header>
+    <div class="tools reveal">
+      <label class="search"><svg class="ico"><use href="#i-search"/></svg><span class="sr-only">Buscar personaje</span><input id="personajesBuscar" type="search" placeholder="Nombre en clave, nombre real o Persona…" autocomplete="off"></label>
+      <div class="chips" id="personajesChips" role="group" aria-label="Filtrar por Arcano"></div>
+      <p class="count" id="personajesCuenta" aria-live="polite"></p>
+    </div>
+    <div class="grid grid--chars" id="personajesGrid"></div>
+    <div class="empty" id="personajesVacio" hidden><b>SIN OBJETIVOS</b><p>Ningún Thief coincide con tu búsqueda.</p><button class="btn btn--red" data-reset="personajes">Limpiar filtros</button></div>
+  </div>
+</section>
+
+<!-- ========== 03 PERSONAS ========== -->
+<section id="personas" class="sec sec--velvet">
+  <div class="wrap">
+    <header class="sec-head reveal"><span class="sec-head__n">03</span><h2>Compendio de Personas</h2></header>
+    <p class="lead reveal">Las Personas iniciales de cada Thief: rebeldes de la historia, la literatura y el mito.</p>
+    <div class="tools reveal">
+      <label class="search"><svg class="ico"><use href="#i-search"/></svg><span class="sr-only">Buscar Persona</span><input id="personasBuscar" type="search" placeholder="Persona o usuario…" autocomplete="off"></label>
+      <div class="chips" id="personasChips" role="group" aria-label="Filtrar por Arcano"></div>
+      <p class="count" id="personasCuenta" aria-live="polite"></p>
+    </div>
+    <div class="grid grid--tarot" id="personasGrid"></div>
+    <div class="empty" id="personasVacio" hidden><b>SIN COINCIDENCIAS</b><p>Esa Persona no está en el compendio.</p><button class="btn btn--red" data-reset="personas">Limpiar filtros</button></div>
+  </div>
+</section>
+
+<!-- ========== 04 PALACIOS ========== -->
+<section id="palacios" class="sec">
+  <div class="wrap">
+    <header class="sec-head reveal"><span class="sec-head__n">04</span><h2>Expediente de infiltración</h2></header>
+    <div class="pal reveal">
+      <div class="pal__list" id="palaciosLista" role="group" aria-label="Palacios"></div>
+      <article class="pal__panel" id="palaciosPanel" aria-live="polite"></article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 05 SOUNDTRACK ========== -->
+<section id="soundtrack" class="sec sec--dark">
+  <div class="wrap">
+    <header class="sec-head reveal"><span class="sec-head__n">05</span><h2>Soundtrack</h2></header>
+    <p class="lead reveal">Escucha cada tema en su plataforma habitual. Si añades un archivo propio en <code>assets/audio/</code>, aparecerá un reproductor.</p>
+    <div class="tracks" id="cancionesGrid"></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot__big">TAKE YOUR HEART</p>
+    <p>Proyecto fan sin ánimo de lucro. Persona 5 Royal © ATLUS / SEGA. Esta wiki no está afiliada a sus titulares.</p>
+    <a class="btn btn--ghost" href="#inicio" data-nav>Volver arriba</a>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Volver al inicio"><svg class="ico"><use href="#i-up"/></svg></button>
+
+<dialog id="modal" aria-labelledby="modalTitle">
+  <div class="modal__box">
+    <button class="icon-btn modal__close" data-close aria-label="Cerrar ficha"><svg class="ico"><use href="#i-close"/></svg></button>
+    <div id="modalBody"></div>
+    <div class="modal__nav">
+      <button class="icon-btn" data-step="-1" aria-label="Anterior"><svg class="ico"><use href="#i-prev"/></svg></button>
+      <span id="modalPos"></span>
+      <button class="icon-btn" data-step="1" aria-label="Siguiente"><svg class="ico"><use href="#i-next"/></svg></button>
+    </div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
